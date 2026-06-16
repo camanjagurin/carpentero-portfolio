@@ -1,0 +1,13 @@
+@keyframes tools-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.tools-track {
+  animation: tools-scroll 40s linear infinite;
+  width: max-content;
+}
+
+.tools-track:hover {
+  animation-play-state: paused;
+}
